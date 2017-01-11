@@ -32,6 +32,12 @@ gulp.task( 'relink', ckeditor5DevEnv.relink );
 gulp.task( 'install', ckeditor5DevEnv.installPackage );
 gulp.task( 'exec', ckeditor5DevEnv.execOnRepositories );
 
+// Translations ----------------------------------------------------------------
+
+gulp.task( 'trans:collect', ckeditor5DevEnv.collectTranslations );
+gulp.task( 'trans:upload', ckeditor5DevEnv.uploadTranslations );
+gulp.task( 'trans:download', ckeditor5DevEnv.downloadTranslations );
+
 // Documentation. -------------------------------------------------------------
 
 gulp.task( 'docs', () => {
