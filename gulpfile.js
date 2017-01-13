@@ -34,9 +34,9 @@ gulp.task( 'exec', ckeditor5DevEnv.execOnRepositories );
 
 // Translations ----------------------------------------------------------------
 
-gulp.task( 'trans:collect', ckeditor5DevEnv.collectTranslations );
-gulp.task( 'trans:upload', ckeditor5DevEnv.uploadTranslations );
-gulp.task( 'trans:download', ckeditor5DevEnv.downloadTranslations );
+gulp.task( 'i18n:collect', ckeditor5DevEnv.collectTranslations );
+gulp.task( 'i18n:upload', ckeditor5DevEnv.uploadi18nlations );
+gulp.task( 'i18n:download', ckeditor5DevEnv.downloadTranslations );
 
 // Documentation. -------------------------------------------------------------
 
